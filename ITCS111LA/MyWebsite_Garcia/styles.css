@@ -8,7 +8,6 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    background-color: white;
     min-height: 100vh;
 }
 
@@ -25,13 +24,13 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 10px;
+    gap: 10px
 }
 
 nav ul li {
     margin: 0;
     padding: 0;
-    list-style: none;
+    justify-content: center;
     text-decoration: none;
 }
 
@@ -39,6 +38,7 @@ nav a button {
     padding: 10px 20px;
     border: none;
     background-color: lightblue;
+    cursor: pointer;
 }
 
 main {
