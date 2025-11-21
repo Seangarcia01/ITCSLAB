@@ -8,10 +8,11 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
+    background-color: white;
     min-height: 100vh;
 }
 
-/* Navbar */
+
 nav {
     background-color: lightgray;
     align-items: center;
@@ -24,23 +25,22 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 10px
+    gap: 10px;
 }
 
 nav ul li {
     margin: 0;
     padding: 0;
     list-style: none;
+    text-decoration: none;
 }
 
 nav a button {
     padding: 10px 20px;
     border: none;
     background-color: lightblue;
-    cursor: pointer;
 }
 
-/* Main layout */
 main {
     flex: 1;
     display: flex;
@@ -48,7 +48,6 @@ main {
     margin-top: 20px;
 }
 
-/* Section content (left) */
 section {
     flex: 2;
     padding: 40px;
@@ -57,7 +56,6 @@ section {
     justify-content: center;
 }
 
-/* Aside content (right) */
 aside {
     flex: 1;
     display: flex;
