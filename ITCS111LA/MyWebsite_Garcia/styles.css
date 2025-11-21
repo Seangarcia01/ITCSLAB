@@ -15,8 +15,10 @@ body {
 nav {
     background-color: lightgray;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     padding: 10px 20px;
+    height: 100px;
+    width: auto;
 }
 
 nav ul {
