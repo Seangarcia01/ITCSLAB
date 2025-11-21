@@ -4,9 +4,11 @@
     padding: 0;
 }
 
-title {
+body {
+    font-family: Roboto, sans-serif;
     display: flex;
-    text-align: center;
+    flex-direction: column;
+    height: 100vh;
 }
 
 nav {
@@ -32,37 +34,32 @@ nav a button {
 
 main {
     display: flex;
-    overflow: hidden;
-    margin: 20px;
-    align-items: center;
-    text-align: center;
+    flex: 1;
+    margin-top: 40px;
+    width: 100%;
 }
 
 section {
   display: flex;
+  flex-direction: column;
+  flex: 2;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  float: left;
-  margin: 0 1.5%;
-  width: 63%;
+  padding: 40px;
 }
 
 aside {
   display: flex;
+  flex-direction: column;
+  flex: 1;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  float: right;
-  margin: 0 1.5%;
-  width: 30%;
+  padding: 20px;
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 12px;
-    margin: 20px;
+aside img {
+    width: auto;
+    height: 90%;
+    padding: 10px;
     background-color: lightgray;
 }
